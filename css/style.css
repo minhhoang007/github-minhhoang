@@ -1,0 +1,175 @@
+
+  #wrapper {
+	  background: url(../image/background-content.png) left top no-repeat;
+	  width: 850px;
+	  height: 315px;
+	  margin: 43px 546px 10px 200px;
+	  position: relative; 
+  }
+  #wrapper .top {
+	  height: 313px;
+	  border: 1px solid #D3D6DB;
+  }
+		 #wrapper #header .top ul  li {
+			  text-decoration: none;
+			  text-align: center;
+			  font: 12px/26px Arial, Helvetica, sans-serif;
+		  }
+		  /*-- ========diary ======= */
+		 #wrapper #header .top ul li a.diary {
+			  border: 1px solid  #FF0;
+			  display:block;
+			  width: 207px;
+			  bottom: 16px;
+			  right: 16px;
+			  position: absolute;
+			  height: 26px;
+			  background: url(../image/icon-diary-2.jpg) 170px center no-repeat #E9EBEE;
+		  }
+		 #wrapper #header .top ul li a.diary span {
+			  padding: 5px 30px 4px 35px;
+			  margin-left: -10px;
+			  background: url(../image/icon2.png)0px center no-repeat #E9EBEE;
+		  }
+		  #wrapper #header .top ul li a.diary:hover {
+		  }
+		  #wrapper #header .top ul li a.diary:hover span {
+		  }
+		
+		  /*-- ========edit ======= */
+		  #wrapper #header .top ul li a.edit {
+			  border: 1px solid  #FF0;
+			  display: block;
+			  width: 181px;
+			  bottom: 56px;
+			  right: 15px;
+			  position: absolute;
+			  height: 26px;
+		  }
+		 #wrapper #header .top ul li a.edit span {
+			  padding: 5px 8px 4px 35px;
+			  background: url(../image/icon-diary.png) left center no-repeat #E9EBEE;
+		  }
+		  #wrapper #header .top ul li a.edit:hover {
+		  }
+		  #wrapper #header .top ul li a.edit:hover span {
+		  }
+		   /*-- ========update ======= */
+		  #wrapper #header .top ul li a.update {
+			
+			  display: block;
+			  width: 29px;
+			  top: 18px;
+			  left: 20px;
+			  position: absolute;
+			  height: 22px;
+			  background:url(../image/camera-01.png) left center no-repeat #E9EBEE;
+		  }
+		  #wrapper #header .top ul li a.update span {
+			  display: none;
+			  padding: 2px 0px 2px 30px;
+			  background: url(../image/camera-01.png)left center no-repeat #E9EBEE;
+		  }
+		  #wrapper #header .top ul li a.update:hover {
+		  }
+		  #wrapper #header .top ul li a.update:hover span {
+			  display: block;
+			  width: 150px;
+		  }
+     /*-- ========menu ======= */
+  #wrapper .menu {
+	  border: 1px solid #D3D6DB;
+	  width: 850px;
+	  height: 46px;
+	  color: #1d2129;
+  }
+	  #wrapper .menu .right {
+	  }
+  #wrapper .menu .content {
+	    clear: right;
+		margin: 0px 12px; 
+		padding-left: 201px;
+	  }
+		  #wrapper .menu .content ul > li {
+			   float: left;
+			   position: relative;
+			   margin: 0px 3px; 
+		  } 
+		  #wrapper .menu .content ul li > a {
+			  text-decoration: none;
+			  font: bold 14px/45px Arial, Helvetica, sans-serif;
+
+		  }
+		
+		  /* =========box1=======  */
+		 
+		  #wrapper .menu .content ul li > .box1 {
+			  padding: 0 25px 0 5px;
+			  margin-right: 5px;
+			  background: url(../image/icon1.png) right center no-repeat;
+		  }
+	
+		  /* =========box2=======  */
+		  #wrapper .menu .content ul li > .box2 {
+			   padding: 0 6px;
+			   margin-right: 5px;
+		  }
+		
+		  /* =========box3=======  */
+		  #wrapper .menu .content ul li > .box3 {
+			  padding: 0 6px;
+			  margin-right: 5px;
+		  }
+		  /* =========box4=======  */
+		  #wrapper .menu .content ul li > .box4 {
+			  padding: 0 6px;
+			  margin-right: 5px;
+		  }
+		  /* =========box5=======  */
+		  #wrapper .menu .content ul li > .box5  {
+			  padding: 0 5px 0 25px;
+			  margin-right: 5px;
+			  background: url(../image/icon3.png) 4px center no-repeat;
+		  }
+		  #wrapper .menu .content ul li .box5:hover span {
+			  text-decoration: underline;
+		  }
+		   /* =========box6=======  */
+	  #wrapper .menu .content ul li > .box6  {
+			  padding:0 30px 0 10px;
+			  background: url(../image/icon1.png) 83px center no-repeat;
+		  } 
+	  	
+   #wrapper .menu .content ul li li {
+	    display: none;
+	}
+		   #wrapper .show1 {
+			  position: absolute;
+			  top: 45px;
+		 	  left: 1px;
+		
+		  }
+		  #wrapper .menu .content .show2 {
+			  display: block;
+			  position: absolute;
+			  top: 45px;
+			  left: 1px;
+			 
+
+		   }
+		   #wrapper .menu .content ul li:hover li {
+			  display: block;
+
+	      }
+	      #wrapper .menu .content  ul  ul li:hover  ul {
+			  display: block;
+					
+	       }
+
+	  
+	  /* =============line=============*/
+  .line-w-40 {
+	width: 1px;
+	height: 40px;
+	background-color: #d2d2d2;
+  } 

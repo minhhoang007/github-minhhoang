@@ -1,0 +1,111 @@
+/* CSS exe-04 */
+@import url("reset1.css");
+@import url ("form1");
+
+.wrapper {
+	border: 1px solid #F69;
+	width: 1114px;
+	margin: 0px auto;
+	background-color: #285f7e;
+	
+}
+/* ======== box-title ============== */
+.wrapper .box-center {
+	position: relative;
+}
+.wrapper .box-center .content{
+	background-color: #f7f7f7;
+}
+.wrapper .box-center .content .title {
+	font: 15px Arial, Helvetica, sans-serif;
+	top: 40px;
+	left: 68px;
+	position: absolute;
+}
+.wrapper .box-center .content .title p{
+	font-size: 31px;
+	color: #aee1f6;
+}
+.wrapper .box-center .content .title span {
+	display: block;
+	margin-top: 12px;
+}
+/* ======== box-write  ============== */
+.wrapper .box-center .content  .write {
+	top: 24px;
+	left: -40px;
+	position:absolute;
+}
+/* ======== box-Share  ============== */
+.wrapper .box-center .content #share {
+
+}
+/* ======== box-Twitter  ============== */
+.wrapper .box-center .content #share .twitter {
+	height: 57px;
+	width: 186px;
+	top: 136px;
+	left: 25px;
+	position: absolute;
+}
+.wrapper .box-center .content #share .twitter .btn-link {
+    background: url(image/bg-tw-l.png) left top no-repeat;
+    margin: -7px -5px;
+    display: block;
+    padding: 0px 0px 0px 18px;
+	float: left;
+}
+
+.wrapper .box-center .content #share .twitter .btn-link span {
+	width: 132px;
+	height: 60px;
+    display: block;
+	text-align: center;
+	line-height: 58px;
+    margin: 6px 41px;
+	font-size: 25px;
+	color: #fff;
+	background: url(image/bg-tw-r.png) right top no-repeat;
+
+}
+/* ======== box-Or ============== */
+.wrapper .box-center .content #share > .img {
+	top: 152px;
+	left: 227px;
+	position: absolute;
+}
+/* ======== box-Facebook  ============== */
+.wrapper .box-center .content #share .facebook {
+	height: 57px;
+	width: 186px;
+	top: 136px;
+	right: 25px;
+	position: absolute;
+	
+
+}
+.wrapper .box-center .content #share .facebook .btn-link {
+    background: url(image/bg-fb-l.png) left top no-repeat;
+    display: block;
+	float: left;
+}
+
+.wrapper .box-center .content #share .facebook .btn-link span {
+	width: 132px;
+	height: 67px;
+    display: block;
+	text-align: center;
+	line-height: 58px;
+    margin:-3px 55px;
+	font-size: 25px;
+	color: #fff;
+	background: url(image/bg-fb-r.png) right top no-repeat;
+
+}
+/* ======== box-line ============== */
+.wrapper .box-center .content  .line-h-155 {
+	width: 488px;
+	height: 1px;
+	background-color: #eaeaea;
+	margin: 155px -2px;
+}
